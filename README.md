@@ -1,4 +1,5 @@
-#NFT Minting Script
+# NFT Minting Script
+
 This JavaScript script allows you to mint, list, and count NFTs with specific metadata. Here's a breakdown of the main sections:
 
 ## 1. Create an Array to Hold the NFTs
