@@ -1,17 +1,33 @@
-# metacraft
+#NFT Minting Script
+This JavaScript script allows you to mint, list, and count NFTs with specific metadata. Here's a breakdown of the main sections:
 
-/*
-Assessment Requirements
-1. Create a variable that can hold a number of NFT's. What type of variable might this be?
-2. Create an object inside your mintNFT function that will hold the metadata for your NFTs. 
-   The metadata values will be passed to the function as parameters. When the NFT is ready, 
-   you will store it in the variable you created in step 1
-3. Your listNFTs() function will print all of your NFTs metadata to the console (i.e. console.log("Name: " + someNFT.name))
-4. For good measure, getTotalSupply() should return the number of NFT's you have created
-*/
+## 1. Create an Array to Hold the NFTs
+   Initializes an empty array to store NFT objects.
 
-// create a variable to hold your NFT's
 
-// this function will take in some values as parameters, create an
-// NFT object using the parameters passed to it for its metadata, 
-// and store it in the variable above.
+## 2. Function to Mint a New NFT
+   Purpose: Creates and adds a new NFT object to the array.
+   Parameters: name, department, uid, batch
+   Output: Logs the minted NFT's name to the console.
+
+
+## 3. Function to List All NFTs and Their Metadata
+   Purpose: Prints the metadata of each NFT.
+   Output: Logs each NFT's details and an ID to the console.
+
+
+## 4. Function to Print the Total Number of Minted NFTs
+   Purpose: Prints the total count of NFTs in the array.
+   Output: Logs the total number of minted NFTs to the console.
+
+## 5. Minting Some Example NFTs
+   Purpose: Mints example NFTs with specified metadata.
+
+
+## 6. Listing All Minted NFTs
+   Purpose: Calls the function to list all NFTs.
+
+## 7. Printing the Total Supply of NFTs
+   Purpose: Calls the function to print the total number of NFTs.
+
+   
