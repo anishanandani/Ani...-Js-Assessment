@@ -48,8 +48,8 @@ function getTotalSupply() {
 }
 
 // Mint some NFTs
-mintNFT("Ranjit", "Computer Science", "UID12345", "2024");
-mintNFT("Anish", "Electrical Engineering", "UID67890", "2023");
+mintNFT("Anish", "Computer Science", "UID12345", "2024");
+mintNFT("Ranjit", "Electrical Engineering", "UID67890", "2023");
 mintNFT("Saurav", "Mechanical Engineering", "UID54321", "2025");
 
 // List all NFTs
